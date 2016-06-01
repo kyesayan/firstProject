@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Sells</title>
+		<meta name='description' content='description of online sales site'>
+		<meta name='keywords' content='keyword1, keyword2, keyword3..'>
+		<link rel="icon" type="image/png" href="source/favicon.png" />
+		<link rel='stylesheet' href='source/normalize.css'>
+		<link rel='stylesheet' href='source/style.css'>
+	</head>
+	<body>
+		<div id='header'>
+			<div id='logo'>
+			<img src='source/logo.png' alt='sales site logo'>
+			<h1>Sales Site</h1>
+			</div>
+			<div id='header_right'>
+				<div id='top_info'>
+					<span>Call us: +374 55 23 78 40</span>
+					<img src='source/add_to_cart.png'>
+				</div>
+				<div id='main_menu'>
+					<ul>
+						<li><a href=''>Main</a></li>
+						<li><a href=''>Home</a></li>
+						<li><a href=''>Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id='main_container'>
+			<div id='slider'>
+				
+			</div>
+			<div id='offers'>
+				<h2>What We Offer</h2>
+				<div class='offer'>
+					<h3>Our first offer</h3>
+					<img src='source/offer1.png' alt='some offer'>
+				</div>
+				<div class='offer'>
+					<h3>Our second offer</h3>
+					<img src='source/offer1.png' alt='some offer'>
+				</div>
+				<div class='offer'>
+					<h3>Our third offer</h3>
+					<img src='source/offer1.png' alt='some offer'>
+				</div>
+			</div>
+			<div id='tabs'>
+				<div onclick="showTab('tab1')" class='tab_header'>
+					<h2>About us</h2>
+				</div>
+				<div onclick="showTab('tab2')" class='tab_header'>
+					<h2>Reviews</h2>
+				</div>
+				<div onclick="showTab('tab3')" class='tab_header'>
+					<h2>Our clients</h2>
+				</div>
+				<div id='tab_content_container'>
+					<div id='tab1' class='tab_content'>
+						some text about us
+					</div>
+					<div id='tab2' class='tab_content'>
+						some of our reviews
+					</div>
+					<div id='tab3' class='tab_content'>
+						some of our clients
+					</div>
+				</div>
+			</div>
+			<div id='footer'>
+				<p id='copyright'> All right reserved &copy; 2016</p>
+			</div>
+		</div>
+		<img src='source/writeus.png' alt='contact us image' id='contact_us'>
+		<div id='contact_us_block'>
+			<form action='' method='POST'>
+				<input type='text' placeholder='Your name'><br>
+				<input type='email' placeholder='email'><br>
+				<input type='submit' value='Send'>
+			</form>
+		</div>
+		<div id='opacity_bg'>
+		</div>
+		<script src='source/jquery-2.2.3.js'></script>
+		<script src='source/main.js'></script>
+	</body>
+</html>
